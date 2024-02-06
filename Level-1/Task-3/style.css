@@ -1,0 +1,37 @@
+ body {
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url("p1.jpg");
+    background-repeat: no-repeat;
+    background-size:cover; 
+}
+.container {
+    text-align: center;
+    border: 6px solid #69a5be;
+    padding: 20px;
+    border-radius: 10px;
+    margin-left:250px;
+}
+input, select, button {
+    margin: 5px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+button {
+    cursor: pointer;
+}
+#result {
+    margin-top: 10px;
+    font-weight:bold;
+    color:black;
+} 
+.container button:hover{
+    background:rgb(192, 97, 97);
+    color:black;
+    border-radius: 5px;
+} 
+
